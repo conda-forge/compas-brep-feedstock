@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.1"
+  version: "0.4.2"
 
 package:
   name: compas-brep
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/compas-brep/compas_brep-${{ version }}.tar.gz
-  sha256: 3dafe964ee699ccaa06c51b307217c13f350ef484f5d32528bdc54adeafe1096
+  sha256: af0329c2d2be6c7056dbac8bbe7d0921a269902dad3860407546c773e52b072e
 
 build:
   noarch: python
